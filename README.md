@@ -21,6 +21,7 @@ Cada carpeta contiene un ejercicio independiente:
 
 - `For_Loop_Counter/`: muestra un mensaje en consola junto con el valor de un contador usando un ciclo `for`
 - `Grade_Average/`: permite ingresar múltiples notas hasta un valor bandera (-1) y calcula la suma, cantidad y promedio
+- `Reverse_Square_Numbers/`: muestra números del 10 al 1 junto con sus cuadrados usando un ciclo `for` en orden descendente
 - `Square_Numbers/`: genera una tabla con números del 1 al 10 y sus respectivos cuadrados
 - `While_Loop/`: imprime una secuencia de asteriscos usando un ciclo `while`
 
@@ -55,6 +56,18 @@ Se implementa el uso de:
 - Variable bandera (`-1`)
 - Operaciones aritméticas
 
+### 🔹 Tabla de números al cuadrado en orden descendente (`Reverse_Square_Numbers`)
+
+Este programa utiliza un ciclo `for` para recorrer los números del 10 al 1.
+
+En cada iteración:
+- Imprime el número actual
+- Calcula y muestra su cuadrado (`n * n`)
+
+Este ejercicio permite comprender:
+- Uso del ciclo `for` en orden descendente
+- Control de iteraciones inversas
+- Operaciones aritméticas en ciclos
 
 ### 🔹 Tabla de números al cuadrado (`Square_Numbers`)
 
