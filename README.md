@@ -8,7 +8,7 @@ Este repositorio contiene una colección de ejercicios básicos desarrollados en
 
 Reforzar conceptos fundamentales como:
 - Estructuras de control
-- Uso de ciclos (`while`)
+- Uso de ciclos (`while`, `for`)
 - Funciones básicas
 - Entrada y salida de datos
 - Lógica de programación
@@ -20,13 +20,14 @@ Reforzar conceptos fundamentales como:
 Cada carpeta contiene un ejercicio independiente:
 
 - `While_Loop/`: imprime una secuencia de asteriscos usando un ciclo `while`
-- `grade-average/`: permite ingresar múltiples notas hasta un valor bandera (-1) y calcula la suma, cantidad y promedio
+- `Grade_Average/`: permite ingresar múltiples notas hasta un valor bandera (-1) y calcula la suma, cantidad y promedio
+- `For_Loop_Counter/`: muestra un mensaje en consola junto con el valor de un contador usando un ciclo `for`
 
 ---
 
 ## ⚙️ Descripción de ejercicios
 
-### Promedio de notas (`grade-average`)
+### 🔹 Promedio de notas (`Grade_Average`)
 
 Este programa solicita al usuario ingresar múltiples notas. El ingreso finaliza cuando se introduce el valor `-1`.
 
@@ -40,12 +41,24 @@ Se implementa el uso de:
 - Variable bandera (`-1`)
 - Operaciones aritméticas
 
+### 🔹 Contador con ciclo `for` (`For_Loop_counter`)
+
+Este programa utiliza un ciclo `for` para iterar desde 0 hasta 9.
+
+En cada iteración:
+- Muestra un mensaje en consola
+- Imprime el valor actual del contador
+
+Este ejercicio permite comprender:
+- Estructura del ciclo `for`
+- Control de iteraciones
+- Uso de variables como contadores
+
 ---
 
 ## 🛠️ Tecnologías utilizadas
 
 - C++
-- Compilador GCC
 - Dev-C++
 
 ---
