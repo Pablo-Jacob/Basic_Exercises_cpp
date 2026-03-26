@@ -1,32 +1,55 @@
 # C++ Basic Exercises
 
-Este repositorio contiene ejercicios básicos desarrollados en C++.
+Este repositorio contiene una colección de ejercicios básicos desarrollados en C++.
 
-## 📌 Descripción
+---
 
-El programa actual imprime una secuencia de asteriscos (`*`) utilizando una estructura de control `while`.
+## 📌 Objetivo
 
-Este tipo de ejercicios permite reforzar conceptos fundamentales como:
+Reforzar conceptos fundamentales como:
+- Estructuras de control
 - Uso de ciclos (`while`)
-- Control de flujo
-- Variables y contadores
+- Funciones básicas
+- Entrada y salida de datos
+- Lógica de programación
 
-## 🚀 Ejecución
+---
 
-Para compilar y ejecutar el programa:
+## 📂 Estructura del repositorio
 
-```bash
-g++ main.cpp -o programa
-./programa
-```
+Cada carpeta contiene un ejercicio independiente:
 
-## 🧠 Ejemplo de salida
-*****
+- `While_Loop/`: imprime una secuencia de asteriscos usando un ciclo `while`
+- `grade-average/`: permite ingresar múltiples notas hasta un valor bandera (-1) y calcula la suma, cantidad y promedio
+
+---
+
+## ⚙️ Descripción de ejercicios
+
+### Promedio de notas (`grade-average`)
+
+Este programa solicita al usuario ingresar múltiples notas. El ingreso finaliza cuando se introduce el valor `-1`.
+
+El sistema:
+- Acumula la suma de las notas
+- Cuenta la cantidad de datos ingresados
+- Calcula el promedio final
+
+Se implementa el uso de:
+- Ciclo `while`
+- Variable bandera (`-1`)
+- Operaciones aritméticas
+
+---
 
 ## 🛠️ Tecnologías utilizadas
+
 - C++
 - Compilador GCC
 - Dev-C++
 
+---
+
 ## 👨‍💻 Autor
+
 Estudiante de Ingeniería en Sistemas de Información y Ciencias de la Computación.
