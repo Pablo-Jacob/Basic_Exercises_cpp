@@ -19,13 +19,27 @@ Reforzar conceptos fundamentales como:
 
 Cada carpeta contiene un ejercicio independiente:
 
-- `While_Loop/`: imprime una secuencia de asteriscos usando un ciclo `while`
-- `Grade_Average/`: permite ingresar múltiples notas hasta un valor bandera (-1) y calcula la suma, cantidad y promedio
 - `For_Loop_Counter/`: muestra un mensaje en consola junto con el valor de un contador usando un ciclo `for`
+- `Grade_Average/`: permite ingresar múltiples notas hasta un valor bandera (-1) y calcula la suma, cantidad y promedio
+- `Square_Numbers/`: genera una tabla con números del 1 al 10 y sus respectivos cuadrados
+- `While_Loop/`: imprime una secuencia de asteriscos usando un ciclo `while`
 
 ---
 
 ## ⚙️ Descripción de ejercicios
+
+### 🔹 Contador con ciclo `for` (`For_Loop_Counter`)
+
+Este programa utiliza un ciclo `for` para iterar desde 0 hasta 9.
+
+En cada iteración:
+- Muestra un mensaje en consola
+- Imprime el valor actual del contador
+
+Este ejercicio permite comprender:
+- Estructura del ciclo `for`
+- Control de iteraciones
+- Uso de variables como contadores
 
 ### 🔹 Promedio de notas (`Grade_Average`)
 
@@ -41,18 +55,19 @@ Se implementa el uso de:
 - Variable bandera (`-1`)
 - Operaciones aritméticas
 
-### 🔹 Contador con ciclo `for` (`For_Loop_counter`)
 
-Este programa utiliza un ciclo `for` para iterar desde 0 hasta 9.
+### 🔹 Tabla de números al cuadrado (`Square_Numbers`)
+
+Este programa utiliza un ciclo `for` para recorrer los números del 1 al 10.
 
 En cada iteración:
-- Muestra un mensaje en consola
-- Imprime el valor actual del contador
+- Imprime el número actual
+- Calcula y muestra su cuadrado (`n * n`)
 
 Este ejercicio permite comprender:
-- Estructura del ciclo `for`
-- Control de iteraciones
-- Uso de variables como contadores
+- Uso del ciclo `for`
+- Operaciones aritméticas dentro de iteraciones
+- Formato de salida en consola
 
 ---
 
