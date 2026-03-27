@@ -19,15 +19,29 @@ Reforzar conceptos fundamentales como:
 
 Cada carpeta contiene un ejercicio independiente:
 
-- `For_Loop_Counter/`: muestra un mensaje en consola junto con el valor de un contador usando un ciclo `for`
-- `Grade_Average/`: permite ingresar múltiples notas hasta un valor bandera (-1) y calcula la suma, cantidad y promedio
-- `Reverse_Square_Numbers/`: muestra números del 10 al 1 junto con sus cuadrados usando un ciclo `for` en orden descendente
-- `Square_Numbers/`: genera una tabla con números del 1 al 10 y sus respectivos cuadrados
-- `While_Loop/`: imprime una secuencia de asteriscos usando un ciclo `while`
+- `Even_Nnumbers_Sum/`: Calcula la suma de los primeros 10 números pares utilizando un ciclo `for`
+- `For_Loop_Counter/`: Muestra un mensaje en consola junto con el valor de un contador usando un ciclo `for`
+- `Grade_Average/`: Permite ingresar múltiples notas hasta un valor bandera (-1) y calcula la suma, cantidad y promedio
+- `Reverse_Square_Numbers/`: Muestra números del 10 al 1 junto con sus cuadrados usando un ciclo `for` en orden descendente
+- `Square_Numbers/`: Genera una tabla con números del 1 al 10 y sus respectivos cuadrados
+- `While_Loop/`: Imprime una secuencia de asteriscos usando un ciclo `while`
 
 ---
 
 ## ⚙️ Descripción de ejercicios
+
+### 🔹 Suma de números pares (`Even_Numbers_Sum`)
+
+Este programa utiliza un ciclo `for` para sumar los primeros 10 números pares (del 2 al 20).
+
+En cada iteración:
+- Se incrementa el valor en 2
+- Se acumula la suma en una variable
+
+Este ejercicio permite comprender:
+- Uso del ciclo `for` con incrementos personalizados
+- Acumuladores
+- Operaciones aritméticas dentro de ciclos
 
 ### 🔹 Contador con ciclo `for` (`For_Loop_Counter`)
 
@@ -93,4 +107,5 @@ Este ejercicio permite comprender:
 
 ## 👨‍💻 Autor
 
+Pablo Jacob.  
 Estudiante de Ingeniería en Sistemas de Información y Ciencias de la Computación.
