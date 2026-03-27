@@ -19,17 +19,36 @@ Reforzar conceptos fundamentales como:
 
 Cada carpeta contiene un ejercicio independiente:
 
-- `Even_Numbers_Sum/`: Calcula la suma de los primeros 10 números pares utilizando un ciclo `for`
-- `For_Loop_Counter/`: Muestra un mensaje en consola junto con el valor de un contador usando un ciclo `for`
-- `Grade_Average/`: Permite ingresar múltiples notas hasta un valor bandera (-1) y calcula la suma, cantidad y promedio
-- `Nested_Loops/`: Demuestra el uso de ciclos anidados (`for`) mostrando iteraciones internas y externas
-- `Reverse_Square_Numbers/`: Muestra números del 10 al 1 junto con sus cuadrados usando un ciclo `for` en orden descendente
-- `Square_Numbers/`: Genera una tabla con números del 1 al 10 y sus respectivos cuadrados
-- `While_Loop/`: Imprime una secuencia de asteriscos usando un ciclo `while`
+- `Divisibility_Check/`: Verifica si un número es divisible entre otro utilizando funciones.
+- `Even_Numbers_Sum/`: Calcula la suma de los primeros 10 números pares utilizando un ciclo `for`.
+- `For_Loop_Counter/`: Muestra un mensaje en consola junto con el valor de un contador usando un ciclo `for`.
+- `Grade_Average/`: Permite ingresar múltiples notas hasta un valor bandera (-1) y calcula la suma, cantidad y promedio.
+- `Nested_Loops/`: Demuestra el uso de ciclos anidados (`for`) mostrando iteraciones internas y externas.
+- `Reverse_Square_Numbers/`: Muestra números del 10 al 1 junto con sus cuadrados usando un ciclo `for` en orden descendente.
+- `Square_Numbers/`: Genera una tabla con números del 1 al 10 y sus respectivos cuadrados.
+- `While_Loop/`: Imprime una secuencia de asteriscos usando un ciclo `while`.
 
 ---
 
 ## ⚙️ Descripción de ejercicios
+
+### 🔹 Verificación de divisibilidad (`Divisibility_Check`)
+
+Este programa solicita al usuario dos números y verifica si uno es divisible entre el otro.
+
+El sistema:
+- Recibe dos valores desde la consola
+- Evalúa la divisibilidad utilizando el operador módulo (`%`)
+- Retorna un valor booleano desde una función
+- Muestra el resultado como `VERDADERO` o `FALSO`
+
+Este ejercicio permite comprender:
+- Uso de funciones con retorno (`bool`)
+- Operadores aritméticos (`%`)
+- Evaluaciones condicionales (`if`)
+- Separación entre lógica y presentación
+
+---
 
 ### 🔹 Suma de números pares (`Even_Numbers_Sum`)
 
@@ -85,14 +104,9 @@ Por cada iteración del ciclo externo:
 - Se imprime el valor actual del contador externo
 - Se ejecuta completamente el ciclo interno
 
-El ciclo interno:
-- Itera varias veces por cada iteración del ciclo externo
-- Muestra el valor del contador interno
-
 Este ejercicio permite comprender:
 - Estructuras de ciclos anidados
 - Relación entre iteraciones internas y externas
-- Flujo de ejecución en múltiples niveles
 
 ---
 
@@ -104,11 +118,6 @@ En cada iteración:
 - Imprime el número actual
 - Calcula y muestra su cuadrado (`n * n`)
 
-Este ejercicio permite comprender:
-- Uso del ciclo `for` en orden descendente
-- Control de iteraciones inversas
-- Operaciones aritméticas en ciclos
-
 ---
 
 ### 🔹 Tabla de números al cuadrado (`Square_Numbers`)
@@ -118,11 +127,6 @@ Este programa utiliza un ciclo `for` para recorrer los números del 1 al 10.
 En cada iteración:
 - Imprime el número actual
 - Calcula y muestra su cuadrado (`n * n`)
-
-Este ejercicio permite comprender:
-- Uso del ciclo `for`
-- Operaciones aritméticas dentro de iteraciones
-- Formato de salida en consola
 
 ---
 
