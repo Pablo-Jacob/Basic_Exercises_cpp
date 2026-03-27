@@ -26,6 +26,7 @@ Cada carpeta contiene un ejercicio independiente:
 - `Nested_Loops/`: Demuestra el uso de ciclos anidados (`for`) mostrando iteraciones internas y externas.
 - `Reverse_Square_Numbers/`: Muestra números del 10 al 1 junto con sus cuadrados usando un ciclo `for` en orden descendente.
 - `Square_Numbers/`: Genera una tabla con números del 1 al 10 y sus respectivos cuadrados.
+- `Vowel_Check/`: Verifica si un carácter ingresado es una vocal utilizando funciones y valores booleanos.
 - `While_Loop/`: Imprime una secuencia de asteriscos usando un ciclo `while`.
 
 ---
@@ -42,26 +43,11 @@ El sistema:
 - Retorna un valor booleano desde una función
 - Muestra el resultado como `VERDADERO` o `FALSO`
 
-Este ejercicio permite comprender:
-- Uso de funciones con retorno (`bool`)
-- Operadores aritméticos (`%`)
-- Evaluaciones condicionales (`if`)
-- Separación entre lógica y presentación
-
 ---
 
 ### 🔹 Suma de números pares (`Even_Numbers_Sum`)
 
 Este programa utiliza un ciclo `for` para sumar los primeros 10 números pares (del 2 al 20).
-
-En cada iteración:
-- Se incrementa el valor en 2
-- Se acumula la suma en una variable
-
-Este ejercicio permite comprender:
-- Uso del ciclo `for` con incrementos personalizados
-- Acumuladores
-- Operaciones aritméticas dentro de ciclos
 
 ---
 
@@ -69,30 +55,11 @@ Este ejercicio permite comprender:
 
 Este programa utiliza un ciclo `for` para iterar desde 0 hasta 9.
 
-En cada iteración:
-- Muestra un mensaje en consola
-- Imprime el valor actual del contador
-
-Este ejercicio permite comprender:
-- Estructura del ciclo `for`
-- Control de iteraciones
-- Uso de variables como contadores
-
 ---
 
 ### 🔹 Promedio de notas (`Grade_Average`)
 
-Este programa solicita al usuario ingresar múltiples notas. El ingreso finaliza cuando se introduce el valor `-1`.
-
-El sistema:
-- Acumula la suma de las notas
-- Cuenta la cantidad de datos ingresados
-- Calcula el promedio final
-
-Se implementa el uso de:
-- Ciclo `while`
-- Variable bandera (`-1`)
-- Operaciones aritméticas
+Este programa solicita al usuario ingresar múltiples notas.
 
 ---
 
@@ -100,23 +67,11 @@ Se implementa el uso de:
 
 Este programa utiliza dos ciclos `for`: uno externo y otro interno.
 
-Por cada iteración del ciclo externo:
-- Se imprime el valor actual del contador externo
-- Se ejecuta completamente el ciclo interno
-
-Este ejercicio permite comprender:
-- Estructuras de ciclos anidados
-- Relación entre iteraciones internas y externas
-
 ---
 
 ### 🔹 Tabla de números al cuadrado en orden descendente (`Reverse_Square_Numbers`)
 
 Este programa utiliza un ciclo `for` para recorrer los números del 10 al 1.
-
-En cada iteración:
-- Imprime el número actual
-- Calcula y muestra su cuadrado (`n * n`)
 
 ---
 
@@ -124,9 +79,23 @@ En cada iteración:
 
 Este programa utiliza un ciclo `for` para recorrer los números del 1 al 10.
 
-En cada iteración:
-- Imprime el número actual
-- Calcula y muestra su cuadrado (`n * n`)
+---
+
+### 🔹 Verificación de vocal (`Vowel_Check`)
+
+Este programa solicita al usuario una letra y verifica si es una vocal.
+
+El sistema:
+- Recibe un carácter desde la consola
+- Evalúa si corresponde a una vocal (mayúscula o minúscula)
+- Retorna un valor booleano desde una función
+- Muestra el resultado como `VERDADERO` o `FALSO`
+
+Este ejercicio permite comprender:
+- Uso de funciones con tipo `bool`
+- Evaluaciones condicionales múltiples (`if` con operadores lógicos)
+- Manejo de caracteres
+- Validación de datos simples
 
 ---
 
